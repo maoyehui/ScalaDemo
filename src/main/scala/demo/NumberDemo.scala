@@ -72,9 +72,23 @@ object NumberDemo {
 
     // 生成随机数
     val r = scala.util.Random
-    r.setSeed(100)
+    //r.setSeed(100)
     println("Random num : " + r.nextInt())
     println("0<=随机数<100 : " + r.nextInt(100))
+    println("产生随机字符 : " + r.nextPrintableChar())
+    println("创建一个随机长度的range : " + (0 to r.nextInt(10)))
+
+    // 创建一个数字区间、列表或数组
+    val range1 = 1 to 10
+    println(range1)
+    val range2 = 1 to 10 by 2
+    println(range2)
+    val arr = 1 to 10 toArray
+    val li = 1 to 10 toList
+
+    // 格式化数值和金额
+    val pi = scala.math.Pi
+    println(f"$pi%1.5f")
   }
 
 }
