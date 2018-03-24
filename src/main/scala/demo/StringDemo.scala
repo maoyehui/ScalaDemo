@@ -1,5 +1,15 @@
 package demo
 
+/**
+  *
+  * @ProjectName: ScalaDemo
+  * @Package: demo
+  * @ClassName: test
+  * @Description: Scala 字符串示例
+  * @Author: yehui.mao
+  * @CreateDate: 2018/3/24 15:20
+  * @UpdateUser: yehui.mao
+  */
 object StringDemo extends App {
   // 比较两个字符串的实例
   var s1 = "Hello"

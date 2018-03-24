@@ -2,10 +2,10 @@ package demo
 
 /**
   *
-  * @ProjectName: SBTTest
+  * @ProjectName: ScalaDemo
   * @Package: demo
   * @ClassName: test
-  * @Description:
+  * @Description: Scala 数值示例
   * @Author: yehui.mao
   * @CreateDate: 2018/3/24 15:20
   * @UpdateUser: yehui.mao
