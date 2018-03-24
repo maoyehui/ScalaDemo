@@ -1,0 +1,31 @@
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial source changes: [0m
+[0m[[0m[0mdebug[0m] [0m[0m	removed:Set(/Users/robbin/IdeaProjects/ScalaDemo/src/main/scala/demo/test.scala)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	added: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0m	modified: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidated products: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mExternal API changes: API Changes: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mModified binary dependencies: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial directly invalidated classes: Set(demo.test)[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mSources indirectly invalidated by:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	product: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0m	binary dep: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0m	external source: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mAll initially invalidated classes: Set(demo.test)[0m
+[0m[[0m[0mdebug[0m] [0m[0mAll initially invalidated sources:Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidating (transitively) by inheritance from demo.test...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: Set(demo.test)[0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidated by transitive inheritance dependency: Set(demo.test)[0m
+[0m[[0m[0mdebug[0m] [0m[0mChange NamesChange(demo.test,ModifiedNames(changes = UsedName(equals,[Default]), UsedName(finalize,[Default]), UsedName(##,[Default]), UsedName($isInstanceOf,[Default]), UsedName(getClass,[Default]), UsedName(notifyAll,[Default]), UsedName(isInstanceOf,[Default]), UsedName(clone,[Default]), UsedName(args,[Default]), UsedName(test,[Default]), UsedName(!=,[Default]), UsedName(hashCode,[Default]), UsedName($init$,[Default]), UsedName(eq,[Default]), UsedName(==,[Default]), UsedName(toString,[Default]), UsedName(executionStart,[Default]), UsedName($asInstanceOf,[Default]), UsedName(asInstanceOf,[Default]), UsedName(wait,[Default]), UsedName(main,[Default]), UsedName(notify,[Default]), UsedName(synchronized,[Default]), UsedName(delayedInit,[Default]), UsedName(ne,[Default]))) invalidates 1 classes due to The demo.test has the following regular definitions changed:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	UsedName(equals,[Default]), UsedName(finalize,[Default]), UsedName(##,[Default]), UsedName($isInstanceOf,[Default]), UsedName(getClass,[Default]), UsedName(notifyAll,[Default]), UsedName(isInstanceOf,[Default]), UsedName(clone,[Default]), UsedName(args,[Default]), UsedName(test,[Default]), UsedName(!=,[Default]), UsedName(hashCode,[Default]), UsedName($init$,[Default]), UsedName(eq,[Default]), UsedName(==,[Default]), UsedName(toString,[Default]), UsedName(executionStart,[Default]), UsedName($asInstanceOf,[Default]), UsedName(asInstanceOf,[Default]), UsedName(wait,[Default]), UsedName(main,[Default]), UsedName(notify,[Default]), UsedName(synchronized,[Default]), UsedName(delayedInit,[Default]), UsedName(ne,[Default]).[0m
+[0m[[0m[0mdebug[0m] [0m[0m	> by transitive inheritance: Set(demo.test)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	> [0m
+[0m[[0m[0mdebug[0m] [0m[0m	> [0m
+[0m[[0m[0mdebug[0m] [0m[0m        [0m
+[0m[[0m[0mdebug[0m] [0m[0mNew invalidations:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mPreviously invalidated, but (transitively) depend on new invalidations:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mAll newly invalidated classes after taking into account (previously) recompiled classes:Set()[0m

@@ -1,0 +1,3 @@
+products
+;reload; set _root_.org.jetbrains.sbt.StructureKeys.sbtStructureOptions in Global := "download resolveClassifiers resolveSbtClassifiers" ;*/*:dumpStructureTo /private/var/folders/cd/_vz0nxnx2s30fvhdy2kdbj980000gn/T/sbt-structure.xml; session clear-all
+all {file:/Users/robbin/IdeaProjects/ScalaDemo/}scalademo/products {file:/Users/robbin/IdeaProjects/ScalaDemo/}scalademo/test:products
