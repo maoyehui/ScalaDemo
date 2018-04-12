@@ -1,10 +1,10 @@
-package demo
+package demo.StructuralControl
 
 import java.io._
 
 import scala.tools.nsc.interpreter.{InputStream, OutputStream}
 import scala.util.control.Breaks
-import util.control.Breaks._
+import scala.util.control.Breaks._
 
 /**
   * @ProjectName: ScalaDemo
