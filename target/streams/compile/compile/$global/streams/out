@@ -1,2 +1,4 @@
-[0m[[0m[33mwarn[0m] [0m[0mthere were two feature warnings; re-run with -feature for details[0m
-[0m[[0m[33mwarn[0m] [0m[0mone warning found[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/robbin/IdeaProjects/ScalaDemo/src/main/scala/demo/ClassAndProperties/Person.scala:3:32: object ReflectNestedObjectArrayTest in object Perf cannot be accessed in object org.apache.avro.io.Perf[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.apache.avro.io.Perf.ReflectNestedObjectArrayTest.Foo[0m
+[0m[[0m[31merror[0m] [0m[0m                               ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
