@@ -4,7 +4,7 @@
 		module="scalademo-build"
 		revision="0.1.0-SNAPSHOT"
 		status="integration"
-		publication="20180324171141"
+		publication="20181227145557"
 		e:sbtVersion="1.0" e:scalaVersion="2.12"
 	>
 		<description>

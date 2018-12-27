@@ -1,1 +1,1 @@
-name := "SBTTest"version := "1.0"scalaVersion := "2.11.12"libraryDependencies += "org.apache.spark" %% "spark-core" % "2.1.0"
+name := "SBTTest"version := "1.0"scalaVersion := "2.11.8"libraryDependencies += "org.apache.spark" % "spark-core_2.11" % "2.3.1"libraryDependencies += "org.apache.spark" % "spark-sql_2.11" % "2.3.1"libraryDependencies += "org.apache.spark" % "spark-streaming_2.11" % "2.3.1"libraryDependencies += "commons-httpclient" % "commons-httpclient" % "3.1"

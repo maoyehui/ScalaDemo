@@ -16,12 +16,15 @@ object ClassAndProperties {
 //    System.out.println(p.firstName + " " + p.lastName + " " + p.age)
 
     val em1 = Employee("John Smith", 30)
-    val em2 = Employee.apply("John Smith", 30)
+    val em2 = Employee.apply("John Smith")
     val em3 = Employee.apply()
     System.out.println(em3)
 
     val singleton = SingletonPattern.getInstance
     System.out.println(singleton)
+
+    val engineer = new Engineer("Robbin", 24, "normal")
+    System.out.println(engineer)
   }
 
   // 当实例化Person类对象时，会看到从类定义的开始到结束，因为在类里面的方法时构造函数的一部分

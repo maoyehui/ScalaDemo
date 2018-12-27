@@ -96,4 +96,5 @@ object StringDemo extends App {
   // 访问字符串中的一个字符
   val c1 = "hello"(1)
   val c2 = "hello".apply(1)
+
 }
