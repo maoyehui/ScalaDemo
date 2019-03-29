@@ -27,7 +27,7 @@ object PageRankDemo extends App {
   var ranks = links.mapValues(v => 1.0)
 
   for (i <- 0 until 10) {
-    var contributions = links.join(ranks).flatMap {
+    val contributions = links.join(ranks).flatMap {
         case (pageId, (link, rank)) =>
           link.map(dest => (dest, rank / link.size))
       }
