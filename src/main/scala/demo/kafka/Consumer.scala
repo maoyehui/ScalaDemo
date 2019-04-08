@@ -1,8 +1,5 @@
 package demo.kafka
 
-import com.fasterxml.jackson.databind.{DeserializationFeature, ObjectMapper}
-import com.fasterxml.jackson.module.scala.DefaultScalaModule
-import com.fasterxml.jackson.module.scala.experimental.ScalaObjectMapper
 import org.apache.kafka.common.serialization.StringDeserializer
 import org.apache.spark.{SparkConf, TaskContext}
 import org.apache.spark.streaming.kafka010.{KafkaUtils, LocationStrategies}
