@@ -29,13 +29,6 @@ public class WikipediaAnalysis {
 
         StreamExecutionEnvironment env = StreamExecutionEnvironment.getExecutionEnvironment();
 
-//        Properties properties = new Properties();
-//        properties.setProperty("bootstrap.servers", "localhost:9092");
-//        properties.setProperty("group.id", "flink");
-//        properties.setProperty("key.deserializer", StringDeserializer.class.getName());
-//        properties.setProperty("value.deserializer", StringDeserializer.class.getName());
-//        properties.setProperty("auto.offset.reset", "earliest");
-
         DataStreamSource<WikipediaEditEvent> edits = env.addSource(new WikipediaEditsSource());
 
         KeyedStream<WikipediaEditEvent, String> keyedEdits = edits.keyBy(new KeySelector<WikipediaEditEvent, String>() {
